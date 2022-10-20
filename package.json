@@ -1,7 +1,7 @@
 {
-  "name": "@utori-dev/template-react-app",
+  "name": "@chellimiller/moms-library-app",
   "version": "1.0.0",
-  "description": "Starter web app with HTML, CSS, JavaScript, and development dependencies.",
+  "description": "Web app for my mom to manage her books.",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -12,27 +12,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/utori-dev/template-react-app.git"
+    "url": "git+https://github.com/chellimiller/moms-library-app.git"
   },
   "keywords": [
-    "html",
-    "css",
-    "javascript",
-    "app",
-    "webpack",
-    "template"
+    "typescript",
+    "react",
+    "book",
+    "inventory"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/utori-dev/template-react-app/issues"
+    "url": "https://github.com/chellimiller/moms-library-app/issues"
   },
-  "homepage": "https://github.com/utori-dev/template-react-app#readme",
+  "homepage": "https://github.com/chellimiller/moms-library-app#readme",
   "devDependencies": {
     "@babel/core": "^7.18.2",
     "@babel/preset-env": "^7.18.2",
     "@swc/core": "^1.2.222",
     "@swc/jest": "^0.2.22",
     "@types/jest": "^28.1.6",
+    "@types/lodash": "^4.14.186",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@types/react-test-renderer": "^18.0.0",
@@ -53,6 +52,12 @@
     "webpack-dev-server": "^4.9.0"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.10",
+    "dexie": "^3.2.2",
+    "dexie-react-hooks": "^1.1.1",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
